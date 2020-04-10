@@ -1,11 +1,11 @@
 import React from 'react'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
-import Dashboard from '../src/components/Dashboard'
-import Create from '../src/components/Create'
-import Edit from '../src/components/Edit'
-import Help from '../src/components/Help'
-import NotFoundPage from '../src/components/NotFoundPage'
-import Header from '../src/components/Header'
+import Dashboard from '../components/Dashboard'
+import Create from '../components/Create'
+import Edit from '../components/Edit'
+import Help from '../components/Help'
+import NotFoundPage from '../components/NotFoundPage'
+import Header from '../components/Header'
 
 export default function AppRouter () {
     return ( 
