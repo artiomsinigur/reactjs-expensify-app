@@ -1,0 +1,33 @@
+html {
+    font-size: 62.5%
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.6rem;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.msg-empty {
+    margin: 0;
+    padding: 3rem 2rem;
+    color: $color-lighter;
+}
+
+.msg-error {
+    margin: 0;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    color: tomato;
+    background-color: rgba(tomato, .3);
+    border: 1px solid tomato;
+}
+
+.is-active {
+    color: tomato;
+}
