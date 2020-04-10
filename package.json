@@ -4,10 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "server": "live-server public/",
+    "serve": "live-server public/",
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
-    "dev-server": "webpack-dev-server",
+    "dev-serve": "webpack-dev-server",
     "test": "jest"
   },
   "dependencies": {
@@ -23,6 +23,7 @@
     "import": "^0.0.6",
     "jest": "20.0.4",
     "live-server": "^1.2.1",
+    "mini-css-extract-plugin": "^0.9.0",
     "moment": "^2.24.0",
     "node-sass": "^4.13.1",
     "normalize.css": "^8.0.1",
