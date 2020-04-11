@@ -12,7 +12,7 @@ module.exports = (env) => {
         // where webpack should start
         entry: './src/app.js',
         output: {
-            path: path.join(__dirname, 'public'),
+            path: path.join(__dirname, 'public', 'dist'),
             filename: 'bundle.js'
         },
         mode: 'development',
@@ -59,7 +59,8 @@ module.exports = (env) => {
             contentBase: path.join(__dirname, 'public'),
             compress: true,
             port: 9000,
-            historyApiFallback: true
+            historyApiFallback: true,
+            publicPath: '/dist/'
         }
     }
 }
