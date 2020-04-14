@@ -1,4 +1,4 @@
-git import React from 'react'
+import React from 'react'
 import { connect } from 'react-redux'
 import ExpenseListItem from './ExpenseListItem'
 import selectExpenses from '../selectors/expenses'
