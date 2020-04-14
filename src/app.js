@@ -11,7 +11,7 @@ import './styles/style.scss'
 
 const store = configureStore()
 // store.dispatch(addExpense({ desc: 'Weater bill', amount: 595, createdAt: 1585976053643 }))
-// store.dispatch(addExpense({ desc: 'Meal bill', amount: 1600, createdAt: 1586620800000 }))
+// store.dispatch(addExpense({ desc: 'Meal bill', amount: 16000000, createdAt: 1586620800000 }))
 // store.dispatch(addExpense({ desc: 'Gas bill', amount: 260, createdAt: 1587225600000 }))
 
 // const state = store.getState()
