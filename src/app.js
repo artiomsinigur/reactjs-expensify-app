@@ -8,6 +8,7 @@ import getVisibleExpenses from './selectors/expenses'
 import 'normalize.css/normalize.css'
 // Inject CSS into the DOM
 import './styles/style.scss'
+import './firebase/firebase'
 
 const store = configureStore()
 // store.dispatch(addExpense({ desc: 'Weater bill', amount: 595, createdAt: 1585976053643 }))
